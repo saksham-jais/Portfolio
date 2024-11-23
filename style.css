@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+body{
+    background-color: rgb(17, 17, 60);
+    margin: 0;
+    padding: 0;
+    /* background: url("360_F_316494556_zSy5wKaJgXnpQsSvf63uTz9wJN4xjQ0Y.jpg"); */
+    background: url("./Images/dark-gradient-background-with-copy-space_53876-99548.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* opacity: 0.5; */
+    /* height: 3000px; */
+}
+.img{
+    margin-left: -600px;
+    transition: margin-left 1s ease-in-out;
+}
+.img.visible {
+
+    margin-left: 0 /* Visible state, fully opaque */
+  
+  }
+@keyframes appear {
+    from{scale: 0.5;}
+    to{scale: 1;}
+}
+.Imglg{
+    animation: appear 1s ease-in-out;
+    animation-timeline: view();
+}
+a{
+    text-decoration: none;
+    padding-right: 30px;
+    color: white;
+}
+a:hover{
+    color: rgb(128, 122, 122);
+}
+#Types{
+    /* border-style: solid; */
+    /* border-color: red; */
+    /* border-width: 5px; */
+    /* background-color: blue; */
+    height: 30rem;
+    width: 100%;
+    display: flex;
+}
+#Typess{
+    /* border-style: solid; */
+    /* border-color: red; */
+    /* border-width: 5px; */
+    /* background-color: blue; */
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    text-align: center;
+
+}
+#sc{
+    /* border-style: solid; */
+    /* border-color: red; */
+    /* border-width: 5px; */
+    /* background-color: blue; */
+    color:white;
+    font-size: 25px;
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    size: 20px;
+    backdrop-filter: blur(5px);
+    
+    /* color:white; */
+}
+.HvrEft:hover{
+    background-color: aqua;
+    transform: scale(1.05);
+}
